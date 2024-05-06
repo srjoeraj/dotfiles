@@ -1,0 +1,58 @@
+# Starship prompt config files.
+# Rohan Rajguru
+
+
+[username]
+style_user = "#FF6717 bold"
+style_root = "red bold"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+
+[hostname]
+style = "#007fff bold"
+ssh_only = false
+format = "at [$hostname]($style) "
+trim_at = "."
+disabled = false
+
+# configure directory
+[directory]
+read_only = " "
+truncation_length = 10
+truncate_to_repo = false # truncates directory to root folder if in github repo
+style = "bold  yellow"
+
+# Replace the "❯" symbol 
+[character]                          
+success_symbol = "[♚ ❯]( bold green)"    
+error_symbol = "[♚ ❯](bold red)"
+
+
+
+
+
+#--------------------------------------------------- Symbols for reference ---------------------------------------------------
+#   "∮"
+#   "∯"
+#   "≎"
+#  ""
+#  ""
+#  ""
+#  ""
+#  ""
+#  ""
+
+#♔ 	U+2654 	&#9812; 	&#x2654;
+#white chess queen 	♕ 	U+2655 	&#9813; 	&#x2655;
+#white chess rook 	♖ 	U+2656 	&#9814; 	&#x2656;
+#white chess bishop 	♗ 	U+2657 	&#9815; 	&#x2657;
+#white chess knight 	♘ 	U+2658 	&#9816; 	&#x2658;
+#white chess pawn 	♙ 	U+2659 	&#9817; 	&#x2659;
+#lack chess king 	♚ 	U+265A 	&#9818; 	&#x265A;
+#black chess queen 	♛ 	U+265B 	&#9819; 	&#x265B;
+#black chess rook 	♜ 	U+265C 	&#9820; 	&#x265C;
+#black chess bishop 	♝ 	U+265D 	&#9821; 	&#x265D;
+#black chess knight 	♞ 	U+265E 	&#9822; 	&#x265E;
+#black chess pawn ♟︎
