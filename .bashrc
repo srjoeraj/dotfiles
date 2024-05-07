@@ -34,6 +34,14 @@ alias la='ls -lathr'
 
 #cd
 alias repo='cd ~/Repo'
+alias bench='cd ~/bench' 
+
+
+#neovim
+alias vim='/usr/bin/nvim'
+
+
+
 
 
 
