@@ -37,12 +37,14 @@ alias repo='cd ~/Repo'
 alias bench='cd ~/bench' 
 alias srj='cd  ~/Repo/github.com/srjoeraj'
 alias dot='cd ~/Repo/github.com/srjoeraj/dotfiles'
-alias lab='cd ~/Repo/github.com/srjoeraj/lab'
+alias lab='cd ~/Repo/github.com/srjoeraj/lab' 
+alias sb='cd ~/Obsidian/Amrita'
 
 
 
 #neovim
 alias vim='/usr/bin/nvim'
+alias v='/usr/bin/nvim'
 
 
 
