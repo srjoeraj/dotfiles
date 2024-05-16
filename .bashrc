@@ -7,13 +7,12 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ ' 
+PS1='[\u@\h \W]\$ '
 
 #------------------------- Vim Keybindings -----------------#
 set -o vi
 
 bind -x '"\C-l":clear'
-
 
 #------------------------- Additional Keybindings ----------#
 # ls
@@ -34,24 +33,19 @@ alias la='ls -lathr'
 
 #cd
 alias repo='cd ~/Repo'
-alias bench='cd ~/bench' 
+alias bench='cd ~/bench'
 alias srj='cd  ~/Repo/github.com/srjoeraj'
 alias dot='cd ~/Repo/github.com/srjoeraj/dotfiles'
-alias lab='cd ~/Repo/github.com/srjoeraj/lab' 
+alias lab='cd ~/Repo/github.com/srjoeraj/lab'
 alias sb='cd ~/Obsidian/Amrita'
-
-
+alias config='cd ~/.config/'
 
 #neovim
 alias vim='/usr/bin/nvim'
 alias v='/usr/bin/nvim'
 
-
-
-
-
 #------------------------- Prompt --------------------------#
-# Starship 
+# Starship
 eval "$(starship init bash)"
 
-
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
