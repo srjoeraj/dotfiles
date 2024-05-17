@@ -43,8 +43,15 @@ alias config='cd ~/.config/'
 #neovim
 alias v='/usr/bin/nvim'
 
-#------------------------- Prompt --------------------------#
-# Starship
-eval "$(starship init bash)"
+#kubectl
+alias k='kubectl '
 
+source /etc/bash_completion
+
+source <(kubectl completion bash)
+
+complete -o default -F __start_kubectl k
+
+#------------------------- Prompt --------------------------#
+# Starship eval "$(starship init bash)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
