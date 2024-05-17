@@ -41,7 +41,6 @@ alias sb='cd ~/Obsidian/Amrita'
 alias config='cd ~/.config/'
 
 #neovim
-alias vim='/usr/bin/nvim'
 alias v='/usr/bin/nvim'
 
 #------------------------- Prompt --------------------------#
