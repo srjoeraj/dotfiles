@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# creating directories
+export XDG_CONFIG_HOME="$HOME"/.config
+mkdir -p "$XDG_CONFIG_HOME"/bash
+mkdir -p "$XDG_CONFIG_HOME"/alacritty
+mkdir -p "$XDG_CONFIG_HOME"/alacritty/themes
+mkdir -p "$HOME/Repo/github.com/srjoeraj"
+mkdir -p "$HOME/Obsidian"
+
+# soft links to .config
+ln -sf "$PWD/alacritty/alacritty.toml" "$XDG_CONFIG_HOME"/alacritty/alacritty.toml
+#ln -sf "$PWD/.bash_profile" "$HOME"/.bash_profile
+ln -sf "$PWD/.bashrc" "$HOME"/.bashrc
+ln -sf "$PWD/.inputrc" "$HOME"/.inputrc
+ln -sf "$PWD/.tmux.conf" "$HOME"/.tmux.conf
+ln -sf "$PWD/starship.toml" "$XDG_CONFIG_HOME"/starship.toml
+
+
+
+
+
+
+
