@@ -33,11 +33,11 @@ alias la='ls -lathr'
 
 #cd
 alias repo='cd ~/Repo'
-alias bench='cd ~/bench'
+alias Bench='cd ~/Bench'
 alias srj='cd  ~/Repo/github.com/srjoeraj'
 alias dot='cd ~/Repo/github.com/srjoeraj/dotfiles'
 alias lab='cd ~/Repo/github.com/srjoeraj/lab'
-alias sb='cd ~/Obsidian/Amrita'
+alias sb='cd ~/Obsidian/Kailash'
 alias config='cd ~/.config/'
 
 #neovim

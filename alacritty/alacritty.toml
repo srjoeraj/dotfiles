@@ -1,10 +1,10 @@
 #Basic settings stolen from Mischa van den burg's dotfiles
 
 [font]
-size = 18
+size = 15
 
 [font.normal]
-family = "UbuntuMono Nerd Font"
+family = "RecMonoCasual  Nerd Font"
 
 [window]
 decorations = "none"
