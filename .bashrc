@@ -33,7 +33,7 @@ alias la='ls -lathr'
 
 #cd
 alias repo='cd ~/Repo'
-alias Bench='cd ~/Bench'
+alias bench='cd ~/Bench'
 alias srj='cd  ~/Repo/github.com/srjoeraj'
 alias dot='cd ~/Repo/github.com/srjoeraj/dotfiles'
 alias lab='cd ~/Repo/github.com/srjoeraj/lab'
