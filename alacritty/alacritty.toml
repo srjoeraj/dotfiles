@@ -1,7 +1,7 @@
 #Basic settings stolen from Mischa van den burg's dotfiles
 
 [font]
-size = 15
+size = 14
 
 [font.normal]
 family = "RecMonoCasual  Nerd Font"
