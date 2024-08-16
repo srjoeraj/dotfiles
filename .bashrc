@@ -64,3 +64,6 @@ export PATH="/home/rohanr/.rd/bin:$PATH"
 
 # Created by `pipx` on 2024-07-13 13:31:45
 export PATH="$PATH:/home/rrajguru/.local/bin"
+
+# Created by `pipx` on 2024-08-16 10:43:00
+export PATH="$PATH:/home/rohnar/.local/bin"
