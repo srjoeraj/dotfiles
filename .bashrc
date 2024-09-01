@@ -45,13 +45,13 @@ alias v='/usr/bin/nvim'
 alias vim='/usr/bin/nvim'
 
 #kubectl
-#alias k='kubectl '
+alias k='kubectl '
 
-#source /etc/bash_completion
+source /etc/bash_completion
 
-#source <(kubectl completion bash)
+source <(kubectl completion bash)
 
-#complete -o default -F __start_kubectl k
+complete -o default -F __start_kubectl k
 
 #------------------------- Prompt --------------------------#
 # Starship
@@ -59,7 +59,7 @@ eval "$(starship init bash)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/home/rohanr/.rd/bin:$PATH"
+export PATH="/home/rohnar/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 # Created by `pipx` on 2024-07-13 13:31:45
